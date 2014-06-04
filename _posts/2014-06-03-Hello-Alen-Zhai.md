@@ -1,5 +1,6 @@
 ---
 layout:default
+permalink:/Hello-Alen-Zhai
 title:你好，AlenZhai
 ---
 #你好，AlenZhai#
