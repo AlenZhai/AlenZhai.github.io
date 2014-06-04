@@ -4,3 +4,14 @@ title: 苦海行舟
 ---
 <h2>{{ page.title }}</h2>
 <p>最新文章</p>
+<ul>
+            {% for post in paginator.posts %}
+            <li class="posts__item">
+              {% if post.external %}<a href="{{ post.external }}" target="_blank">
+              {% else %}<a href="{{ post.url }}">{% endif %}
+                <h2 class="post__title">{{ post.title }}</h2>
+                <span class="post__date">{{ post.date | date: "%B %e, %Y" }}</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
