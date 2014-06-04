@@ -1,14 +1,14 @@
-.blog.title{
+.blog_title{
 text-align:center;
 font-weight:bold;
 height:50px;
 width:100%
 }
-.blog.body{
+.blog_body{
 font-size:10pt;
 font-style:normal
 }
-.blog.date{
+.blog_date{
 text-align:right;
 font-style:italic
 }
