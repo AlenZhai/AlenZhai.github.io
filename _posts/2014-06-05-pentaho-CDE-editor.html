@@ -1,0 +1,21 @@
+---
+layout: default
+title: Pentaho CDE HTML编辑框不显示OK按钮
+---
+##{{ page.title }}##
+
+在用Pentaho CDE的时候大家可能都碰到过编辑Html的时候找不到ok按钮的情况，这是什么原因造成的呢，经过实验发现原来是弹出的编辑窗口太大了无法显示下面的ok按钮而页面也没有出现滚动条，知道了原因就可以找到解决办法，解决办法有两种（也可能有第三种）。
+这里我只说一种：找到pentaho-solutions\system\pentaho-cdf-dd\js目录下的cdf-dd-tablemanager.js文件将
+     var _inner ='<div style="height:450px;">...'
+     中的height:450px 修改成400px或更小的值
+	        myself.editor = new CodeEditor();
+            myself.editor.initEditor("codeArea");
+            myself.editor.setTheme(null);//if null the default is used ("ace/theme/twilight" is the default)
+            myself.editor.setMode(myself.getCodeType());
+            myself.editor.setContents(myself.value);
+            $('.popup').css("width","820px");
+            $('.popup').css('min-height','500px');
+            $('.popup').css('min-width','820px');
+      将这里的min-height 的值改成400px或更小的值保存重启Server再看看吧
+
+#{{ page.date | date_to_string }}
