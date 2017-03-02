@@ -1,3 +1,5 @@
 baseurl:/blog_demo
 
 theme:Slate
+
+theme: jekyll-theme-architect
