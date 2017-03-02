@@ -18,13 +18,7 @@ collections:
   tutorials:
     output: true
 
-name: Jekyll • Simple, blog-aware, static sites
-description: Transform your plain text into static websites and blogs
-
-twitter:
-  username: jekyllrb
-
-logo: /img/logo-2x.png
+name: 苦海行舟●个人空间
 
 gems:
   - jekyll-avatar
