@@ -1,2 +1,4 @@
-url:/blog_demo
+markdown: kramdown
+highlighter: rouge
+url: http://alenzhai.github.io/
 theme:Architect
