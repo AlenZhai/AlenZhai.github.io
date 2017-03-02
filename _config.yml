@@ -2,6 +2,7 @@ markdown: kramdown
 highlighter: rouge
 url: http://alenzhai.github.io/
 repository: https://github.com/AlenZhai
+
 defaults:
   -
     scope:
