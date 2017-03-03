@@ -1,6 +1,6 @@
 ---
 title: 你好，AlenZhai two
-date: 2013-11-26 19:52:20 -0600
+date: 2013-11-27 19:52:20 -0600
 categories:[java]
 ---
 ##{{ page.title }}
