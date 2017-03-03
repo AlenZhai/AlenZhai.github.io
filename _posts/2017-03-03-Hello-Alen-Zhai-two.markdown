@@ -1,7 +1,7 @@
 ---
 title: 你好，AlenZhai two
 date: 2013-11-27 19:52:20 -0600
-categories:[java]
+categories: [java]
 ---
 
 Hi,Alen Zhai
