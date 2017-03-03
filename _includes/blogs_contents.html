@@ -9,7 +9,7 @@
     <ul>
       {% for category in site.categories %}
       <li class="{% if page.title == post.title %}current{% endif %}">
-      <a href="/blogs/{{category | first }}">{{ category | first }}</a> ({{ category | last | size }})
+      <a href="/blogs/{{category | first }}">{{ category | first }}({{ category | last | size }})</a> 
       </li>
       {% endfor %}
       <li>
