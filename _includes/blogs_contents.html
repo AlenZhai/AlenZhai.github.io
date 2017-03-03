@@ -8,9 +8,9 @@
     <h4>分类</h4>
     <ul>
       {% for category in site.categories %}
-      <li class="{% if page.title == category | first %}current{% endif %}">
+      <li class="{% if page.title == category }current{% endif %}">
       <a href="/blogs/{{category | first }}">{{ category | first }}({{ category | last | size }})</a> 
-      {{page.title}} --{{category}}</li>
+     </li>
       {% endfor %}
       <li>
         <a href="/docs/history/">History »</a>
